@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+.green-back-head {
+    background: linear-gradient(109.11deg,#006455 27.14%,#20c293 112.3%);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.comfortaa-font {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+

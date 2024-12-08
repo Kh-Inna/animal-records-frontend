@@ -1,0 +1,67 @@
+.green-back {
+    background: linear-gradient(109.11deg,#006455 27.14%,#20c293 112.3%);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.comfortaa-font {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.card-img {
+    max-width: 150px; 
+    height: auto; 
+       
+}
+
+.green-btn {
+    background-color: #006455;
+    color: #fff;
+    border-color: #006455;
+}
+
+.green-btn:hover {
+    background-color: #fff;
+    border-color: #006455;
+    color: #006455;
+}
+
+.not-found-alert {
+    width: 100%;
+}
+
+.green-border {
+    border-color: #006455;
+    color: #006455;
+}
+
+.green-border:hover {
+    border-color: #006455;
+    background-color: #006455;
+    color: #ffffff;
+}
+
+.non-clickable {
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.cart-button {
+    min-width: 65px;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}

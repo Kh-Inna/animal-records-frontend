@@ -1,6 +1,5 @@
 import "./2-categories.css";
 import {FC} from "react";
-import {ICategoryCatalogPageProps} from "./2-typing.tsx";
 import {Link} from "react-router-dom";
 
 import {Navbar} from "../components/navbar/index.tsx"
@@ -14,7 +13,7 @@ import {Breadcrumbs} from "../components/breadcrumbs/index.tsx"
 
 
 
-export const CategoryCatalogPage: FC<ICategoryCatalogPageProps> = () => {
+export const CategoryCatalogPage: FC = () => {
     const {
         CategoryList,
         AnimalID,

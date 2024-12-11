@@ -1,18 +1,17 @@
 import {RouteObject, useRoutes} from "react-router-dom";
-import {IGlobalProps} from "./App.typing";
 import {MainPage} from "./pages/1-main";
 import {CategoryCatalogPage} from "./pages/2-categories";
 import {CategoryPage} from "./pages/3-category";
 
-export const AppRoutes = (props: IGlobalProps) => {
+export const AppRoutes = () => {
     const routes: RouteObject[] = [
         {
             path: "",
-            element: <MainPage {...props} />,
+            element: <MainPage />,
         },
         {
             path: "category",
-            element: <CategoryCatalogPage {...props} />,
+            element: <CategoryCatalogPage />,
         },
         {
             path: "category/:id",

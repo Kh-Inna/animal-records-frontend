@@ -1,11 +1,10 @@
 import "./1-main.css";
 import {FC} from "react";
-import {IMainPageProps} from "./1-typing";
 
 import {Container} from "react-bootstrap";
 import {Navbar} from "../components/navbar";
 
-export const MainPage: FC<IMainPageProps> = () => {
+export const MainPage: FC = () => {
     return (
         <>
             <Navbar/>

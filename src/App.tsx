@@ -1,16 +1,30 @@
 import "./App.css";
-import {  HashRouter } from "react-router-dom";
-import { AppRoutes } from "./routes";
-import { useGlobalProps } from "./hooks/useGlobalProps";
+import {AppRoutes} from "./routes";
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import Store from "./store";
+import {useEffect} from "react";
+import { invoke } from "@tauri-apps/api/core";
+
 
 function App() {
-
-    const globalProps = useGlobalProps();
+    useEffect(()=>{
+      invoke('tauri', {cmd:'create'})
+        .then(() =>{console.log("Tauri launched")})
+        .catch(() =>{console.log("Tauri not launched")})
+      return () =>{
+        invoke('tauri', {cmd:'close'})
+          .then(() =>{console.log("Tauri launched")})
+          .catch(() =>{console.log("Tauri not launched")})
+      }
+    }, [])
 
     return (
-        <HashRouter>
-            <AppRoutes {...globalProps} />
-        </HashRouter>
+        <BrowserRouter>
+            <Provider store={Store}>
+                <AppRoutes/>
+            </Provider>
+        </BrowserRouter>
     );
 }
 

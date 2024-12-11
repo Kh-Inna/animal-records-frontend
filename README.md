@@ -1,50 +1,14 @@
-# React + TypeScript + Vite
+# Животные рекордсмены
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Проект создан в рамках курса "Разработка интернет-приложений" (МГТУ им. Н.Э. Баумана, ИУ5, 5 семестр). Включает в себя фронтенд, бэкенд и РПЗ.
+Веб-приложение выполнено в формате "Услуги/заявки", где услуги представлены ПО, а заявки — заявками на установку набора ПО. Подробнее о проекте можно узнать в РПЗ.
 
-Currently, two official plugins are available:
+# Ссылки на репозитории проекта:
+1. https://github.com/Kh-Inna/animal-records-backend.git
+2. https://github.com/Kh-Inna/animal-records-frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Ветки
+base-spa: копия SSR версии приложения с моковыми данными
+adapt-and-deploy: добавлена адаптивность и развертывание
+gh-pages: ветка для развертывания на github pages
+tauri: ветка с десктопным приложением Tauri

@@ -8,10 +8,7 @@
 2. https://github.com/Kh-Inna/animal-records-frontend
 
 # Ветки
-base-spa: копия SSR версии приложения с моковыми данными
-
-adapt-and-deploy: добавлена адаптивность и развертывание
-
-gh-pages: ветка для развертывания на github pages
-
-tauri: ветка с десктопным приложением Tauri
+- base-spa: копия SSR версии приложения с моковыми данными
+- adapt-and-deploy: добавлена адаптивность и развертывание
+- gh-pages: ветка для развертывания на github pages
+- tauri: ветка с десктопным приложением Tauri

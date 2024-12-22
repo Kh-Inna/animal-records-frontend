@@ -2,7 +2,9 @@
 
 Проект создан в рамках курса "Разработка интернет-приложений" (МГТУ им. Н.Э. Баумана, ИУ5, 5 семестр). Включает в себя фронтенд, бэкенд и РПЗ.
 Веб-приложение выполнено в формате "Услуги/заявки", где услуги представлены ПО, а заявки — заявками на установку набора ПО. Подробнее о проекте можно узнать в РПЗ.
-https://kh-inna.github.io/animal-records-frontend/
+
+GitHub Pages: https://kh-inna.github.io/animal-records-frontend/
+
 # Ссылки на репозитории проекта:
 1. https://github.com/Kh-Inna/animal-records-backend.git
 2. https://github.com/Kh-Inna/animal-records-frontend
